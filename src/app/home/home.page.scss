@@ -1,0 +1,20 @@
+// .welcome-card ion-img {
+//   max-height: 35vh;
+//   overflow: hidden;
+// }
+
+ion-card {
+  //vh formatting like font multiplier
+  height: 25vh;
+  //can use rgb or hex code for colors
+  background-color: purple;
+  color: yellow;
+  font-size: 10vh;
+  text-align: center;
+  //imp tag prevents styling from being overridden
+vertical-align: middle
+}
+
+ion-img {
+  height: 75% !important;
+}
